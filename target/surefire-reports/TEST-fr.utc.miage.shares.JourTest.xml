@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fr.utc.miage.shares.JourTest" time="0.024" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Users\David\SynologyDrive\Enseignement\Cours\Supports cours 2024 - 2025\M1 FI-FA - Indus\sharePortfolio - VSCode\target\test-classes;D:\Users\David\SynologyDrive\Enseignement\Cours\Supports cours 2024 - 2025\M1 FI-FA - Indus\sharePortfolio - VSCode\target\classes;c:\maven2repo\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;c:\maven2repo\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;c:\maven2repo\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;c:\maven2repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;c:\maven2repo\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;c:\maven2repo\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;c:\maven2repo\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\navarre\AppData\Local\Temp\surefire15506099389808047747\surefirebooter-20250326161550960_3.jar C:\Users\navarre\AppData\Local\Temp\surefire15506099389808047747 2025-03-26T16-15-50_862-jvmRun1 surefire-20250326161550960_1tmp surefire_0-20250326161550960_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Users\David\SynologyDrive\Enseignement\Cours\Supports cours 2024 - 2025\M1 FI-FA - Indus\sharePortfolio - VSCode\target\test-classes;D:\Users\David\SynologyDrive\Enseignement\Cours\Supports cours 2024 - 2025\M1 FI-FA - Indus\sharePortfolio - VSCode\target\classes;c:\maven2repo\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;c:\maven2repo\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;c:\maven2repo\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;c:\maven2repo\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;c:\maven2repo\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;c:\maven2repo\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;c:\maven2repo\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\navarre"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Users\David\SynologyDrive\Enseignement\Cours\Supports cours 2024 - 2025\M1 FI-FA - Indus\sharePortfolio - VSCode"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\navarre\AppData\Local\Temp\surefire15506099389808047747\surefirebooter-20250326161550960_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-2513"/>
+    <property name="user.name" value="navarre"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-22\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="c:\maven2repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\navarre\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="D:\Users\David\SynologyDrive\Enseignement\Cours\Supports cours 2024 - 2025\M1 FI-FA - Indus\sharePortfolio - VSCode"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-21\bin;;C:\Program Files\nPerf;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Users\navarre\AppData\Local\Microsoft\WindowsApps;C:\Users\navarre\AppData\Local\Programs\Git\cmd;C:\Users\navarre\AppData\Roaming\npm;C:\Users\navarre\AppData\Local\Muse Hub\lib;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testEqualsWithSameObjectShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.0"/>
+  <testcase name="testAccessorShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.003"/>
+  <testcase name="testNotEqualsWithDifferentClassShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.002"/>
+  <testcase name="testNotEqualsWithDifferentDaysShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.001"/>
+  <testcase name="testNotEqualsWithDifferentYearsAndDaysShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.001"/>
+  <testcase name="testNotEqualsWithNullObjectShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.0"/>
+  <testcase name="testHashCode" classname="fr.utc.miage.shares.JourTest" time="0.001"/>
+  <testcase name="testEqualsWithEqualObjectShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.001"/>
+  <testcase name="testNotEqualsWithDifferentYearsShouldWork" classname="fr.utc.miage.shares.JourTest" time="0.001"/>
+  <testcase name="testAllConstructorUsage" classname="fr.utc.miage.shares.JourTest" time="0.002"/>
+  <testcase name="testToStringWithDedicatedLayout" classname="fr.utc.miage.shares.JourTest" time="0.005"/>
+</testsuite>

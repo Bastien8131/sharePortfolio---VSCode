@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Jour.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">fr.utc.ida.forge.shareportfolio:sharePortfolio</a> &gt; <a href="index.source.html" class="el_package">fr.utc.miage.shares</a> &gt; <span class="el_source">Jour.java</span></div><h1>Jour.java</h1><pre class="source lang-java linenums">/*
+ * Copyright 2025 David Navarre &lt;David.Navarre@irit.fr&gt;.
+ *
+ * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package fr.utc.miage.shares;
+
+/**
+ * This class aims at describing a day based on a year and the day in this year.
+ *
+ * @author David Navarre &amp;lt;David.Navarre@ut-capitole.fr&amp;gt;
+ */
+public class Jour {
+
+    /**
+     * Year attribute.
+     */
+    private final int year;
+    /**
+     * Day attribute.
+     */
+    private final int day;
+
+    /**
+     * Builds a Jour object from one year and one day.
+     *
+     * @param aYear the year of the jour &amp;gt; 0
+     * @param aDay  theday of the jour &amp;gt; 0
+     */
+<span class="fc" id="L40">    public Jour(final int aYear, final int aDay) {</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">        if (0 &gt;= aDay) {</span>
+<span class="fc" id="L42">            throw new IllegalArgumentException(&quot;Day must be strictly more than 0&quot;);</span>
+        }
+<span class="fc bfc" id="L44" title="All 2 branches covered.">        if (0 &gt;= aYear) {</span>
+<span class="fc" id="L45">            throw new IllegalArgumentException(&quot;Year must be strictly more than 0&quot;);</span>
+        }
+<span class="fc" id="L47">        this.year = aYear;</span>
+<span class="fc" id="L48">        this.day = aDay;</span>
+<span class="fc" id="L49">    }</span>
+
+    /**
+     * Returns the year of the jour.
+     *
+     * @return the year property
+     */
+    public int getYear() {
+<span class="fc" id="L57">        return year;</span>
+    }
+
+    /**
+     * Returns the day of the jour.
+     *
+     * @return the day property
+     */
+    public int getDay() {
+<span class="fc" id="L66">        return day;</span>
+    }
+
+    @Override
+    public int hashCode() {
+<span class="fc" id="L71">        final int prime = 31;</span>
+<span class="fc" id="L72">        int result = 1;</span>
+<span class="fc" id="L73">        result = prime * result + year;</span>
+<span class="fc" id="L74">        result = prime * result + day;</span>
+<span class="fc" id="L75">        return result;</span>
+    }
+
+    @Override
+    public boolean equals(final Object obj) {
+<span class="fc bfc" id="L80" title="All 2 branches covered.">        if (this == obj) {</span>
+<span class="fc" id="L81">            return true;</span>
+        }
+<span class="fc bfc" id="L83" title="All 2 branches covered.">        if (obj == null) {</span>
+<span class="fc" id="L84">            return false;</span>
+        }
+<span class="fc bfc" id="L86" title="All 2 branches covered.">        if (getClass() != obj.getClass()) {</span>
+<span class="fc" id="L87">            return false;</span>
+        }
+<span class="fc" id="L89">        Jour other = (Jour) obj;</span>
+<span class="fc bfc" id="L90" title="All 4 branches covered.">        return (year == other.year) &amp;&amp; (day == other.day);</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="fc" id="L95">        return &quot;Jour [year=&quot; + year + &quot;, day=&quot; + day + &quot;]&quot;;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>
